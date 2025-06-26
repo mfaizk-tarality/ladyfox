@@ -61,22 +61,22 @@ export default FAQ;
 const faqData = [
   {
     question: "Is AI difficult to integrate into my current system?",
-    ans: "Not with Bima. We design our AI solutions to plug into your existing tools and workflows with minimal disruption. Whether you're using CRMs, ERPs, or custom systems, we tailor the integration smoothly.",
+    ans: "Not with foxchain. We design our AI solutions to plug into your existing tools and workflows with minimal disruption. Whether you're using CRMs, ERPs, or custom systems, we tailor the integration smoothly.",
   },
   {
     question: "Is AI difficult to integrate into my current system?",
-    ans: "Not with Bima. We design our AI solutions to plug into your existing tools and workflows with minimal disruption. Whether you're using CRMs, ERPs, or custom systems, we tailor the integration smoothly.",
+    ans: "Not with foxchain. We design our AI solutions to plug into your existing tools and workflows with minimal disruption. Whether you're using CRMs, ERPs, or custom systems, we tailor the integration smoothly.",
   },
   {
     question: "Is AI difficult to integrate into my current system?",
-    ans: "Not with Bima. We design our AI solutions to plug into your existing tools and workflows with minimal disruption. Whether you're using CRMs, ERPs, or custom systems, we tailor the integration smoothly.",
+    ans: "Not with foxchain. We design our AI solutions to plug into your existing tools and workflows with minimal disruption. Whether you're using CRMs, ERPs, or custom systems, we tailor the integration smoothly.",
   },
   {
     question: "Is AI difficult to integrate into my current system?",
-    ans: "Not with Bima. We design our AI solutions to plug into your existing tools and workflows with minimal disruption. Whether you're using CRMs, ERPs, or custom systems, we tailor the integration smoothly.",
+    ans: "Not with foxchain. We design our AI solutions to plug into your existing tools and workflows with minimal disruption. Whether you're using CRMs, ERPs, or custom systems, we tailor the integration smoothly.",
   },
   {
     question: "Is AI difficult to integrate into my current system?",
-    ans: "Not with Bima. We design our AI solutions to plug into your existing tools and workflows with minimal disruption. Whether you're using CRMs, ERPs, or custom systems, we tailor the integration smoothly.",
+    ans: "Not with foxchain. We design our AI solutions to plug into your existing tools and workflows with minimal disruption. Whether you're using CRMs, ERPs, or custom systems, we tailor the integration smoothly.",
   },
 ];

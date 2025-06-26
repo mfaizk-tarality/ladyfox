@@ -16,31 +16,35 @@ import { useState } from "react";
 export function TopBar({ children }) {
   const navItems = [
     {
-      name: "BlockBuilders",
-      link: "https://blockbuilders.tan.live/",
+      name: "Service",
+      link: "#",
     },
     {
-      name: "Explorer",
-      link: "https://testnet.tanscan.com/",
+      name: "Case Studies",
+      link: "#",
     },
     {
-      name: "Join Community",
-      link: "https://t.me/Hodl_TAN",
+      name: "Pricing",
+      link: "#",
+    },
+    {
+      name: "Contact",
+      link: "#",
     },
   ];
 
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   return (
-    <div className="relative w-full">
+    <div className="relative w-full bg-gradient-to-tl from-[#00010db0] to-[#21122f73] z-30">
       <Navbar>
         {/* Desktop Navigation */}
         <NavBody>
           <NavbarLogo />
           <NavItems items={navItems} />
           <div className="flex items-center gap-4">
-            <NavbarButton variant="primary" href={"https://buy.tan.live/"}>
-              Super Seed Sale
+            <NavbarButton variant="primary" href={"#"}>
+              Work With US
             </NavbarButton>
           </div>
         </NavBody>
@@ -74,9 +78,9 @@ export function TopBar({ children }) {
                 onClick={() => setIsMobileMenuOpen(false)}
                 variant="primary"
                 className="w-full"
-                href={"https://buy.tan.live/"}
+                href={"#"}
               >
-                Super Seed Sale
+                Work With US
               </NavbarButton>
             </div>
           </MobileNavMenu>

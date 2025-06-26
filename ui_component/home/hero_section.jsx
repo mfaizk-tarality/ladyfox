@@ -14,7 +14,7 @@ const HeroSection = () => {
         refresh
       />
       <Spotlight
-        className="-top-40 left-0 md:-top-20 md:left-60"
+        className="-top-40 left-0 md:-top-20 md:left-60 z-50"
         fill="#9e60a7"
       />
       <div className="2xl:col-start-3 2xl:col-span-5 md:col-span-6 col-span-12 flex justify-center xl:items-start items-center h-full w-full  flex-col gap-8 pb-72">

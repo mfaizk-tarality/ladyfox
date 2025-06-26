@@ -13,6 +13,7 @@ import OurClient from "@/ui_component/home/our_client";
 import MeetExpert from "@/ui_component/home/meet_expert";
 import FAQ from "@/ui_component/home/faq";
 import Insight from "@/ui_component/home/insight";
+import ContactUs from "@/ui_component/home/contact_us";
 gsap.registerPlugin(useGSAP, ScrollTrigger, SplitText);
 export default function MainHome() {
   return (
@@ -28,6 +29,7 @@ export default function MainHome() {
         <MeetExpert />
         <FAQ />
         <Insight />
+        <ContactUs />
       </div>
     </div>
   );
