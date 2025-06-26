@@ -10,7 +10,10 @@ const PoweredWorkflow = () => {
     () => {
       gsap.from(".cards", {
         x: 500,
-        stagger: 1,
+        opacity: 0,
+        stagger: {
+          each: 0.5,
+        },
         ease: "power2.out",
         duration: 50,
         scrollTrigger: {
@@ -27,18 +30,18 @@ const PoweredWorkflow = () => {
   return (
     <Container className={"relative "}>
       <Spotlight fill="#9e60a7" />
-      <div className="grid grid-cols-12 " ref={container}>
-        <div className="col-span-2">
+      <div className="grid grid-cols-12" ref={container}>
+        <div className="col-span-12 md:col-span-2">
           <p className="text-gray-600">[OUR SOLUTIONS]</p>
         </div>
 
-        <div className="col-span-6">
+        <div className="col-span-12 md:col-span-6">
           <p className="text-transparent bg-clip-text bg-[linear-gradient(2766deg,rgb(251,199,102)_32%,rgb(255,255,255)_90.38%)] text-6xl font-[500] font-Jakarta">
             Building AI-Powered <br /> Workflow
           </p>
         </div>
 
-        <div className="col-span-4">
+        <div className="col-span-12 md:col-span-4">
           <p className="text-[#b4b4c2]">
             Our AI-driven automation eliminates busywork, streamlines your
             operations, and helps your business grow, without extra effort.
@@ -52,7 +55,9 @@ const PoweredWorkflow = () => {
             <div
               key={idx}
               className={`min-h-56 ${
-                idx == 0 ? "col-span-8" : "col-span-4"
+                idx == 0
+                  ? "col-span-12 md:col-span-8"
+                  : "col-span-12 md:col-span-4"
               } border border-white/10 rounded-2xl bg-gradient-to-tr from-[#ffffff34] to-[#FFFFFF0A] cards `}
             >
               <img src={item?.img} alt="" className="" />

@@ -6,7 +6,14 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import TimeLine from "@/ui_component/home/time_line";
 import PoweredWorkflow from "@/ui_component/home/powered_workflow";
 import SeeOur from "@/ui_component/home/see_our";
-gsap.registerPlugin(useGSAP, ScrollTrigger);
+import TopBrand from "@/ui_component/home/top_brand";
+import { SplitText } from "gsap/all";
+import TechStack from "@/ui_component/home/tech_stack";
+import OurClient from "@/ui_component/home/our_client";
+import MeetExpert from "@/ui_component/home/meet_expert";
+import FAQ from "@/ui_component/home/faq";
+import Insight from "@/ui_component/home/insight";
+gsap.registerPlugin(useGSAP, ScrollTrigger, SplitText);
 export default function MainHome() {
   return (
     <div className="bg-[#010111]">
@@ -15,6 +22,12 @@ export default function MainHome() {
         <TimeLine />
         <PoweredWorkflow />
         <SeeOur />
+        <TopBrand />
+        <TechStack />
+        <OurClient />
+        <MeetExpert />
+        <FAQ />
+        <Insight />
       </div>
     </div>
   );
