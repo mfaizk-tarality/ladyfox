@@ -52,7 +52,7 @@ export const metadata = {
     siteName: "FoxChain",
     images: [
       {
-        url: "/logo.svg",
+        url: "https://ladyfox.vercel.app/logo.svg",
         width: 1200,
         height: 630,
         alt: "FoxChain Blockchain Platform and Logo",
@@ -70,7 +70,7 @@ export const metadata = {
     title: "FoxChain | Secure Blockchain Solutions",
     description:
       "Pioneering secure and efficient blockchain technology. Experience unparalleled security and efficiency with FoxChain.",
-    images: ["/logo.svg"],
+    images: ["https://ladyfox.vercel.app/logo.svg"],
   },
 
   authors: [{ name: "FoxChain Team", url: "https://ladyfox.vercel.app" }],
