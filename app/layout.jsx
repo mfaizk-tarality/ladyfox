@@ -17,8 +17,22 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "FoxChain",
   description: "All right reserve foxchain 2025",
+  icons: {
+    icon: "/onlyLogo.svg",
+    shortcut: "/onlyLogo.svg",
+    apple: "/onlyLogo.svg",
+    other: [
+      {
+        rel: "mask-icon",
+        url: "/onlyLogo.svg",
+        color: "#000000",
+      },
+    ],
+  },
+  openGraph: {
+    images: "/opengraph-image.jpg",
+  },
 };
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
