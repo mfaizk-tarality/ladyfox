@@ -15,8 +15,22 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "FoxChain",
-  description: "All right reserve foxchain 2025",
+  title: {
+    default: "FoxChain | Secure Blockchain Solutions",
+    template: "%s | FoxChain",
+  },
+  description:
+    "Pioneering secure and efficient blockchain technology. All rights reserved FoxChain 2025.",
+  keywords: [
+    "FoxChain",
+    "blockchain",
+    "security",
+    "crypto",
+    "decentralized",
+    "web3",
+    "finance",
+  ],
+
   icons: {
     icon: "/onlyLogo.svg",
     shortcut: "/onlyLogo.svg",
@@ -29,8 +43,58 @@ export const metadata = {
       },
     ],
   },
+
   openGraph: {
-    images: "/opengraph-image.jpg",
+    title: "FoxChain | Secure Blockchain Solutions",
+    description:
+      "Discover FoxChain: Pioneering secure and efficient blockchain technology. Experience unparalleled security and efficiency.",
+    url: "https://ladyfox.vercel.app",
+    siteName: "FoxChain",
+    images: [
+      {
+        url: "/logo.svg",
+        width: 1200,
+        height: 630,
+        alt: "FoxChain Blockchain Platform and Logo",
+        type: "image/jpeg",
+      },
+    ],
+    type: "website",
+    locale: "en_US",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    site: "@YourFoxChainHandle",
+    creator: "@YourPersonalHandle",
+    title: "FoxChain | Secure Blockchain Solutions",
+    description:
+      "Pioneering secure and efficient blockchain technology. Experience unparalleled security and efficiency with FoxChain.",
+    images: ["/logo.svg"],
+  },
+
+  authors: [{ name: "FoxChain Team", url: "https://ladyfox.vercel.app" }],
+  creator: "FoxChain Development",
+
+  robots: {
+    index: true,
+    follow: true,
+    nocache: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      noimageindex: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+
+  viewport: {
+    width: "device-width",
+    initialScale: 1,
+    maximumScale: 1,
+    userScalable: false,
   },
 };
 export default function RootLayout({ children }) {
